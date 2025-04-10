@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>QA</title>
+ <link rel="stylesheet" href="./reset.css">
+ <link rel="stylesheet" href="./styles.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+ <header class="header">
+   <div class="preheader">
+    <div class="container">
+     <div class="df jcsb">
+      <div class="preheader-working df aic">
+       <span class="green-dot db"></span>
+       <p>Сейчас работаем</p>
+      </div>
+      <div class="preheader-links df pr">
+       <div class="preheader-icons df">
+        <a class="df" href=""><span class="df aic jcc"><img src="./images/tg-icon.svg" alt="" width="20" height="20"></span></a>
+        <a class="df" href=""><span class="df aic jcc"><img src="./images/whatsap-icon.svg" alt="" width="20" height="20"></span></a>
+       </div>
+       <ul class="preheader-list df aic">
+        <li class="preheader-items"><a href="tel:+74872791099">+7 (4872) 791099</a></li>
+        <li class="preheader-items"><a href="tel:+79207910079">+7 (920) 7910079</a></li>
+       </ul>
+       <button class="btn white backcall-open">Обратный звонок</button>
+       <div class="backcall">
+         <div class="backcall-menu">
+          <div class="backcall-menu-header df aic jcsb"><p>Обратный звонок</p><button class="backcall-menu-close btn df aic jcc">x</button></div>
+          <div class="backcall-menu-main">
+            <form class="backcall-menu-form">
+              <div class="text-input fio-input"><label class="input-label pr"><input type="text" class="fio input"><span class="custom-label">Привет, меня звоут</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+              <div class="text-input tel-input"><label class="input-label pr"><input type="tel" class="tel input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><span class="custom-label">Мой номер</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+              <div class="text-input about-input"><label class="input-label pr"><input type="text" class="fio input"><span class="custom-label">Хочу обсудить</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+              <div class="switch-input df aic">
+                <label><input class="switch switch-first" type="checkbox"><span>Я даю согласие на обработку персональных данных</span>
+                  <div class="d-none not-valid">Обязательное поле</div></label>
+              </div>  
+              <div class="backcall-menu-submit"><button class="btn df jcc aic yellow">Отправить</button></div>
+            </form>
+          </div>
+         </div>
+        </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="postheader">
+    <div class="container">
+     <div class="df jcsb aic">
+      <div class="postheader-logo-container df">
+       <a href="" class="logo df aic"><img src="" alt="" max-width="128" height="36"></a>
+       <a href="#form" class="brif df aic">Заполнить бриф</a>
+      </div>
+      <div class="postheader-nav">
+       <ul class="postheader-list df">
+        <li><a href="">О компании</a></li>
+        <li><a href="">Кейсы</a></li>
+        <li><a href="">Услуги</a></li>
+        <li><a href="">Контакты</a></li>
+       </ul>
+       <button class="open-modal btn">Меню</button>
+      </div>
+     </div>
+    </div>
+   </div>
+ </header>
+ <main class="main">
+  <section class="hero">
+   <div class="container">
+    <div class="hero-inner df jcsb">
+     <div class="about-battlepass">
+      <h1><span>QA BattlePass</span> Fight till you hired</h1>
+      <p>Выиграй деньги и классную работу!</p>
+      <button class="btn yellow">Хочу участвовать</button>
+     </div>
+     <div class="about-battlepass-image lazy-img lazy-progress">
+      <img class="lazy" data-src="./images/battlepass.svg" alt="" width="545" height="341">
+     </div>
+    </div>
+   </div>
+  </section>
+
+  <div class="run-text" aria-hidden="true">
+    <div class="run-content">
+      <div class="run-words">
+        <div class="words-group">
+          <div class="run-word">Твой персонаж</div>
+          <div class="run-word">Твой опыт</div>
+          <div class="run-word">Твои задания</div>
+          <div class="run-word">Твой старт карьеры в IT</div>
+        </div>
+        <div class="words-group">
+          <div class="run-word">Твой персонаж</div>
+          <div class="run-word">Твой опыт</div>
+          <div class="run-word">Твои задания</div>
+          <div class="run-word">Твой старт карьеры в IT</div>
+        </div>
+        <div class="words-group">
+          <div class="run-word">Твой персонаж</div>
+          <div class="run-word">Твой опыт</div>
+          <div class="run-word">Твои задания</div>
+          <div class="run-word">Твой старт карьеры в IT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--   
+  <div class="carusel-container df">
+    <div class="carusel carusel-1 df">
+      <span class="carusel-word">Твой персонаж</span>
+      <span class="carusel-word">Твой опыт</span>
+      <span class="carusel-word">Твои задания</span>
+      <span class="carusel-word">Твой старт карьеры в IT</span>
+    </div>
+    <div class="carusel df">
+      <span class="carusel-word">Твой персонаж</span>
+      <span class="carusel-word">Твой опыт</span>
+      <span class="carusel-word">Твои задания</span>
+      <span class="carusel-word">Твой старт карьеры в IT</span>
+    </div>
+    <div class="carusel df">
+      <span class="carusel-word">Твой персонаж</span>
+      <span class="carusel-word">Твой опыт</span>
+      <span class="carusel-word">Твои задания</span>
+      <span class="carusel-word">Твой старт карьеры в IT</span>
+    </div>
+  </div> -->
+  <section class="info">
+    <div class="container">
+      <div class="about">
+        <div class="title df jcsb">
+          <span class="db sub-title">About</span>
+          <div class="right-column">
+            <h2>QA BattlePass</h2>
+            <p>Тульская компания QA Service Lab запускает уникальный проект QA BattlePass. В течение нескольких недель молодые таланты будут соревноваться в заданиях сферы тестирования ПО. За ходом сражения можно будет следить в соцсетях компании.</p>
+          </div>
+        </div>
+        <div class="about-blocks blocks dg">
+          <div class="block">
+            <h3>12</h3>
+            <p>заданий для самых умных и креативных</p>
+          </div>
+          <div class="block">
+            <h3>3</h3>
+            <p>месяца игры с реальным опытом</p>
+          </div>
+          <div class="block">
+            <h3>50 000</h3>
+            <p>рублей в призовом фонде</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress df aaa"><img data-src="./images/trophy.svg" alt="" class="lazy" width="40" height="40"></span>
+            <p>Главный приз — оплачиваемая стажировка</p>
+          </div>
+        </div>
+      </div>
+      <div class="conditions">
+        <div class="title df jcsb">
+          <span class="db sub-title">Conditions</span>
+          <div class="right-column">
+            <h2>Как принять участие</h2>
+            <p>Все очень просто тебе должно быть больше 16 лет и ты должен жить в Туле или Тульской области. Это нужно на случай победы — стажировка исключительно оффлайн и в офисе. В остальном все, как в RPG — регистрируй персонажа и получай реальный опыт за решение задач!</p>
+          </div>
+        </div>
+        <div class="blocks dg">
+          <div class="block">
+            <h3>/01</h3>
+            <p>Придумай себе персонажа</p>
+          </div>
+          <div class="block">
+            <h3>/02</h3>
+            <p>Зарегистрируйся</p>
+          </div>
+          <div class="block">
+            <h3>/03</h3>
+            <p>Пройди первичный отбор</p>
+          </div>
+          <div class="block">
+            <h3>/04</h3>
+            <p>Участвуй и выигрывай</p>
+          </div>
+        </div>
+      </div>
+      <div class="characters">
+        <div class="title df jcsb">
+          <span class="db sub-title">Сharacter</span>
+          <div class="right-column">
+            <h2>Мой персонаж</h2>
+            <p>Какой у тебя будет персонаж — решать только тебе</p>
+          </div>
+        </div>
+        <div class="blocks gtc-7 dg">
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-01.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>QA спартанец</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-02.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>QA воин</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-03.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>QA лучник</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-04.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>QA наемник</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-05.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>QA паладин</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-06.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>QA маг</p>
+          </div>
+          <div class="block">
+            <span class="lazy-img lazy-progress"><img data-src="./images/character-07.svg" alt="" class="lazy" width="100" height="100"></span>
+            <p>Твой персонаж</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="questions">
+    <div class="container">
+      <div class="profit">
+        <div class="profit-title title df jcsb">
+          <span class="db sub-title">Profit</span>
+          <div class="right-column">
+            <h2>
+              Топ 4 причины участвовать
+            </h2>
+          </div>
+        </div>
+        <div class="profit-reason">
+          <div class="df">
+            <span class="grey">01</span>
+            <p>Стать частью интересного события и получить оценку своих навыков от экспертов компании</p>
+          </div>
+          <div class="df">
+            <span class="grey">02</span>
+            <p>Получить навык проектной работы</p>
+          </div>
+          <div class="df">
+            <span class="grey">03</span>
+            <p>Побороться за денежные призы</p>
+          </div>
+          <div class="df">
+            <span class="grey">04</span>
+            <p>Стать лучшим и получить главный приз — оплачиваемую стажировку в компании!</p>
+          </div>
+        </div>
+      </div>
+      <div class="battle pr">
+        <div class="battle-desc">
+          <h2>Сразись с другими участниками интеллектуальной битвы! </h2>
+          <a href="#" class="btn yellow">Хочу участвовать</a>
+        </div>
+        <div class="battle-img lazy-progress lazy-img">
+          <picture>
+              <source type="image/webp" data-srcset="./images/programmers.webp 1x, ./images/programmers 2x.webp 2x">
+              <source type="image/avif" data-srcset="./images/programmers.avif 1x, ./images/programmers 2x.avif 2x">
+              <source data-srcset="./images/programmers.jpg 1x, ./images/programmers 2x.jpg 2x">
+            <img data-src="./images/programmers.jpg" alt="" class="lazy" width="1280" height="322">
+          </picture>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="title df jcsb">
+          <span class="db sub-title">FAQ</span>
+          <div class="right-column">
+            <h2>
+              Частые вопросы
+            </h2>
+          </div>
+        </div>
+        <div class="faq-accordion df">
+          <ul class="accordion-list">
+            <li>
+              <details class="accordion open" open>
+                <summary class="accordion-title df aic jcsb lazy-img lazy-progress">Где брать задачи? <span class="df aic jcc"><img data-src="./images/arrow-down.svg" alt="" class="lazy" width="16" height="32"></span></summary>
+                <p class="accordion-content">
+                  Их мы будем публиковать 1 раз в неделю в наших соцсетях <a href="#" class="blue">vk.com/qaservicelab</a> и <a href="#" class="blue">t.me/qaandlife</a>
+                </p>
+               </details>    
+            </li>
+            <li>
+              <details class="accordion" >
+                <summary class="accordion-title df aic jcsb lazy-img lazy-progress">Куда присылать ответы? <span class="df aic jcc"><img data-src="./images/arrow-down.svg" alt="" class="lazy" width="16" height="32"></span></summary>
+                <p class="accordion-content">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, voluptate?
+                </p>
+               </details>    
+            </li>
+            <li>
+              <details class="accordion">
+                <summary class="accordion-title df aic jcsb lazy-img lazy-progress">Что на кону?<span class="df aic jcc"><img data-src="./images/arrow-down.svg" alt="" class="lazy" width="16" height="32"></span></summary>
+                <p class="accordion-content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, blanditiis.
+                </p>
+               </details>    
+            </li>
+            <li>
+              <details class="accordion">
+                <summary class="accordion-title df aic jcsb lazy-img lazy-progress">Кто станет победителем?<span class="df aic jcc"><img data-src="./images/arrow-down.svg" alt="" class="lazy" width="16" height="32"></span></summary>
+                <p class="accordion-content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, blanditiis.
+                </p>
+               </details>    
+            </li>
+            <li>
+              <details class="accordion">
+                <summary class="accordion-title df aic jcsb lazy-img lazy-progress">Как будут рассчитываться баллы?<span class="df aic jcc"><img data-src="./images/arrow-down.svg" alt="" class="lazy" width="16" height="32"></span></summary>
+                <p class="accordion-content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, blanditiis.
+                </p>
+               </details>    
+            </li>
+            <li>
+              <details class="accordion">
+                <summary class="accordion-title df aic jcsb lazy-img lazy-progress">Когда подведем итоги? <span class="df aic jcc"><img data-src="./images/arrow-down.svg" alt="" class="lazy" width="16" height="32"></span></summary>
+                <p class="accordion-content">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, blanditiis.
+                </p>
+               </details>    
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="blockquote">
+        <blockquote>
+          QA BattlePass станет прекрасной возможностью проверить свои силы, а для кого-то она будет стартом отличной карьеры! Желаем всем удачи! Придумывайте классный ник, разминайте пальцы — и вперед, регистрироваться!
+        </blockquote>
+        <div class="dg">
+          <span class="df sub-title aic jcc">QA</span>
+          <div class="right-column">
+            <p>QA Service Lab</p>
+            <span>Команда</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="registration" id="form">
+    <div class="container">
+      <div class="registration-inner">
+        <div class="title df aic jcsb">
+          <span class="db sub-title">
+            One more small step
+          </span>
+          <div class="right-column">
+            <h2>
+              Регистрация на QA BattlePass
+            </h2>
+          </div>
+        </div>
+        <div class="reg-form-block df">
+          <form class="reg-form">
+            <div class="text-input fio-input"><label class="input-label pr"><input type="text" class="fio input"><span class="custom-label">Твои ФИО</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+            <div class="text-input tel-input"><label class="input-label pr"><input type="tel" class="tel input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><span class="custom-label">Твой номер мобильного телефона</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+            <div class="text-input email-input"><label class="input-label pr"><input type="email" class="email input"><span class="custom-label">Твоя актуальная почта</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+            <div class="text-input nickname-input"><label class="input-label pr"><input type="text" class="text input"><span class="custom-label">Твой ник</span></label><div class="d-none not-valid">Обязательное поле</div></div>
+            <div class="text-input file-input"><label class="pr file-label"><input type="file" class="file"><div class="file-block df "><span class="custom-label">Мой персонаж</span><button type="button" class="d-none delete-file"><img src="./images/x.svg" alt="" width="24" height="24"></button><div class="choose-file df aic">Выбрать файл</div></div></label><div class="d-none not-valid">Обязательное поле</div></div>
+            <div class="switch-input df aic">
+              <label><input class="switch switch-first" type="checkbox"><span>Я даю согласие на обработку персональных данных</span>
+                <div class="d-none not-valid">Обязательное поле</div></label>
+            </div>
+            <div class="switch-input df aic">
+              <label><input class="switch switch-second" type="checkbox"><span>Я подтверждаю что мне 16 лет и более и я проживаю в Туле или Тульской области</span>
+                <div class="d-none not-valid">Обязательное поле</div></label>
+            </div>
+            <div class="send">
+              <button type="button" class="send-form yellow">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="subscribe lazy" data-bg="./images/bg copy.jpg">
+        <div class="subscribe-desc df">
+          <h2>Подписывайтесь на наш канал в Telegram</h2>
+          <p>Канал компании QA Service Lab про жизнь в неидеальном мире, но в стремлении к качественным программным продуктам и сервисам</p>
+          <a class="btn df aic" href="#"><img src="./images/tg.svg" alt="" width="20" height="20">Подписаться</a>
+        </div>
+        <div class="subscribe-image lazy-img lazy-progress">
+          <img class="lazy" data-src="./images/phone.png" alt="" width="461" height="331">
+        </div>
+      </div>
+    </div>
+  </section>
+ </main>
+ <footer class="footer">
+  <div class="container">
+    <div class="communication">
+      <div class="comm-email">
+        <p class="comm-title">Пишите на электропочту</p>
+        <a class="comm-email-link" href="#">info@qaservicelab.ru</a>
+      </div>
+      <div class="comm-call">
+        <p class="comm-title">Звоните</p>
+        <a class="comm-phone" href="#">+7 (920) 7910079</a>
+        <a class="comm-phone" href="#">+7 (4872) 791099</a>
+      </div>
+      <div class="comm-links">
+        <p class="comm-title">Можно написать и сюда</p>
+        <div class="comm-icons df">
+          <span class="lazy-img lazy-progress"><img data-src="./images/vk-icon.svg" alt="" class="lazy" width="36" height="36"></span>
+          <span class="lazy-img lazy-progress"><img data-src="./images/in-icon.svg" alt="" class="lazy" width="36" height="36"></span>
+          <span class="lazy-img lazy-progress"><img data-src="./images/tg-icon.svg" alt="" class="lazy" width="36" height="36"></span>
+          <span class="lazy-img lazy-progress"><img data-src="./images/whatsap-icon.svg" alt="" class="lazy" width="36" height="36"></span>
+        </div>
+      </div>
+    </div>
+    <div class="policy df">
+      <a class="policy-link" href="#">Политика в отношении персональных данных</a>
+      <a class="policy-link" href="#">Согласие на обработку персональных данных</a>
+      <a class="policy-link" href="#">Пользовательское соглашение</a>
+      <a class="policy-link" href="#">Результаты СОУТ</a>
+    </div>
+    <div class="copyright">
+      © QA Service Lab, 2019 - 2024
+    </div>
+  </div>
+ </footer>
+ <div class="modal">
+  <div class="modal-content">
+    <div class="modal-header"><button class="close-modal btn df">Закрыть</button></div>
+    <div class="modal-main">
+      <ul class="modal-list dg">
+        <li><a href="#" class="modal-link">О компании</a></li>
+        <li><a href="#" class="modal-link">Кейсы</a></li>
+        <li><a href="#" class="modal-link">Услуги</a></li>
+        <li><a href="#" class="modal-link">Контакты</a></li>
+        <li><a href="tel:+74872791099" class="modal-link">+7 (4872) 791099</a></li>
+        <li><a href="tel:+79207910079" class="modal-link">+7 (920) 7910079</a></li>
+      </ul>
+    </div>
+  </div>
+ </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" type="text/javascript"></script>
+ <script src="./js/lazy.js"></script>
+ <script src="./js/script.js"></script>
+</body>
+</html>
